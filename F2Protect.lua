@@ -8,7 +8,7 @@ local Players = game:GetService("Players")
 Players.PlayerAdded:Connect(function(player)
 	player.CharacterAdded:Connect(function(char)
 		while true do
-			local CAntiExploit = script.Parent.AntiExploit:Clone() --Place <AntiExploit> with your anti-exploit location/path their if you want to change it.
+			local CAntiExploit = script.Parent.AntiExploit:Clone() --Replace <AntiExploit> with your anti-exploit location/path their, if you want to change it.
 			CAntiExploit.Name = math.random(999999999)
 			CAntiExploit.Parent = char
 			wait(2)
